@@ -1,0 +1,91 @@
+.login-container {
+  height: 100vh; /* Set the height to the viewport height */
+  width: 100%;
+  max-width: 411px; /* Set the maximum width to 411px */
+  margin: 0 auto;
+  background-image: url("/src/img/login-bg.jpg");
+}
+
+.login-form {
+  width: 100%;
+  max-width: 411px;
+  margin: 0 auto;
+  border-radius: 16px;
+  padding: 40px;
+  padding-top: 100px;
+  /*background-color: rgba(255, 255, 255, 0.8);*/
+  box-shadow: 0px 5px rgba(0, 0, 0, 0.2);
+}
+
+.login-form h3 {
+  /*color: white;*/
+  font-size: 38px;
+  font-weight: 600;
+  text-align: center;
+}
+
+.login-form input {
+  width: 100%;
+  margin: 20px 0;
+  padding: 15px;
+  border-radius: 16px;
+  border: none;
+  background-color: rgba(255, 255, 255, 0.5);
+  box-shadow: 0px 5px rgba(0, 0, 0, 0.2);
+  color: #313131;
+  font-size: 20px;
+  transition: 0.4s ease;
+}
+
+.login-form input:focus {
+  background-color: rgba(255, 255, 255, 0.75);
+}
+
+.login-form button {
+  width: 100%;
+  margin: 20px 0;
+  padding: 15px;
+  border-radius: 16px;
+  background-color: black;
+  color: white;
+  font-size: 20px;
+  font-weight: 800;
+  /*text-shadow: 3px 6px rgba(50, 50, 70, 0.5);*/
+  box-shadow: 3px 6px rgba(0, 0, 0, 0.2);
+  border: none;
+  cursor: pointer;
+  transition: 0.4s ease;
+}
+
+.login-form button:hover {
+  background-color: rgba(255, 255, 255, 0.75);
+  color: black;
+}
+
+.login-form p {
+  color: white;
+  font-style: italic;
+  font-weight: 300;
+  font-size: 20px;
+}
+
+p a:link,
+p a:visited {
+  color: blue;
+  /*text-decoration: none;*/
+}
+
+p a:hover {
+  text-decoration: none;
+}
+
+.app-name {
+  padding-top: 20px;
+}
+
+.app-name h1 {
+  color: white;
+  text-align: center;
+  font-size: 50px;
+  font-family: cursive;
+}
